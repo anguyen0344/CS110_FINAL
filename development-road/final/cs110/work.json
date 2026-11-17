@@ -5,7 +5,7 @@
   "name": "An Nguyen",
   "work": {
     "project": "A story worth playing",
-    "path": "story",
+    "path": "media",
     "selected": [
       "save"
     ],
@@ -13,13 +13,13 @@
     "environmentTest": true,
     "gitEvidence": "I first edited README.md in VS Code, committed and pushed it, and verified that the updated text appeared on GitHub, commit e923ce1. I then reused my Week12B Explorer Beacon project to test Unity. I changed the Main Camera field of view to 65 outside Play Mode, saved the scene, and tested beacon activation. I pushed ToolTest in commit e9376eb, downloaded the repository from GitHub, and opened the downloaded project in Unity. The field of view remained 65, and beacon activation displayed “Communication restored.” This reused project is preparation evidence, not newly earned Final scope.",
     "ai": "Chat GPT / Codex",
-    "aiVerify": "",
-    "notes": "I can open and test Unity scenes, change and save Inspector settings, and commit and push files using VS Code and GitHub. For example, I changed the camera field of view to 65 and verified that the",
+    "aiVerify": "I will inspect and explain suggested code, run it in Unity, test normal and boundary cases, compare expected and actual results, and check official documentation. I will record failures, fixes, and AI assistance.",
+    "notes": "I can open and test Unity scenes, change and save Inspector settings, and commit and push files using VS Code and GitHub. For example, I changed the camera field of view to 65 and verified that the downloaded project retained the change and beacon activation worked. I can record test results and organize evidence. AI assisted with the earlier project’s source, models, documentation, and today’s instructions. I still need practice explaining and modifying C# scripts independently and defining a realistic Final scope.",
     "plan": "",
     "availability": "",
     "service": "",
     "supportMode": "closed",
-    "role": "Developer",
+    "role": "Solo developer — planning, implementation, testing, documentation, version control, and release.",
     "board": {
       "nodes": [],
       "edges": [],
@@ -57,7 +57,22 @@
     "tasks": [],
     "dailyNotes": []
   },
-  "team": null,
-  "sharedPlan": null,
+  "team": {
+    "name": "A story worth playing",
+    "mode": "solo",
+    "project": "A story worth playing",
+    "projectRepo": "",
+    "members": [
+      {
+        "name": "An Nguyen",
+        "role": "Solo developer — planning, implementation, testing, documentation, version control, and release."
+      }
+    ]
+  },
+  "sharedPlan": {
+    "goal": "",
+    "plan": "",
+    "tasks": []
+  },
   "completedReports": []
 }
