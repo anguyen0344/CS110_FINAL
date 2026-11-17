@@ -11,7 +11,7 @@
     ],
     "engine": "Unity 6 / C# / Visual Studio Code / Git and GitHub",
     "environmentTest": false,
-    "gitEvidence": "",
+    "gitEvidence": "I reused my Week12B Explorer Beacon project to test my development tools. I changed the Main Camera field of view to 65 outside Play Mode, saved the scene, and tested movement and beacon activation. I pushed the project to CS110_FINAL under ToolTest in commit e9376eb. I then downloaded the repository from GitHub, opened ToolTest in Unity, confirmed the saved field of view was 65, and successfully activated the beacon. This is reused preparation work, not newly earned Final project scope.",
     "ai": "",
     "aiVerify": "",
     "notes": "",
