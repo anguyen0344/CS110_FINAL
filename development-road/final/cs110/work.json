@@ -9,7 +9,6 @@
     "path": "explore",
     "selected": [
       "save",
-      "access",
       "modular",
       "tests",
       "external",
@@ -63,12 +62,6 @@
         "code": "R02",
         "title": "Save and restore progress",
         "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
-      },
-      {
-        "id": "access",
-        "code": "R08",
-        "title": "Accessible controls and interface",
-        "evidence": "Demonstrate keyboard access, readable contrast, clear feedback and one user-tested accessibility improvement."
       },
       {
         "id": "modular",
