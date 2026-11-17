@@ -44,11 +44,11 @@
     },
     "evidence": {},
     "dailyDraft": {
-      "meeting": "",
-      "worked": "",
-      "next": "",
-      "blocker": "",
-      "evidence": ""
+      "meeting": "CS110-2026-11-17",
+      "worked": "Today I connected my CS110_FINAL GitHub repository and completed the tool check by editing and pushing the README, running a Unity test, and verifying the downloaded project. I reviewed the Final Road requirements and saved a solo project plan for Explorer Beacon: Restore the Outpost with 11 requirements totaling 900 possible points. The Final project will be created from scratch; the earlier Unity project was used only for tool testing.",
+      "next": "Next class, I will complete the Plan step by drawing the project pipeline and assigning myself specific tasks, deadlines, and evidence requirements for the 11 selected requirements.",
+      "blocker": "I need guidance on organizing the project architecture and planning the automated tests and build/release workflow.",
+      "evidence": "-Repository: https://github.com/anguyen0344/CS110_FINAL  -Tool-check commits: e923ce1 and e9376eb Saved final plan: [server receipt kept on course site]"
     },
     "requirements": [
       {
@@ -119,7 +119,17 @@
       }
     ],
     "tasks": [],
-    "dailyNotes": []
+    "dailyNotes": [
+      {
+        "date": "2026-11-17",
+        "revision": 1,
+        "worked": "Today I connected my CS110_FINAL GitHub repository and completed the tool check by editing and pushing the README, running a Unity test, and verifying the downloaded project. I reviewed the Final Road requirements and saved a solo project plan for Explorer Beacon: Restore the Outpost with 11 requirements totaling 900 possible points. The Final project will be created from scratch; the earlier Unity project was used only for tool testing.",
+        "next": "Next class, I will complete the Plan step by drawing the project pipeline and assigning myself specific tasks, deadlines, and evidence requirements for the 11 selected requirements.",
+        "blocker": "I need guidance on organizing the project architecture and planning the automated tests and build/release workflow.",
+        "evidence": "-Repository: https://github.com/anguyen0344/CS110_FINAL  -Tool-check commits: e923ce1 and e9376eb Saved final plan: [server receipt kept on course site]",
+        "tasks": []
+      }
+    ]
   },
   "team": {
     "name": "A story worth playing",
