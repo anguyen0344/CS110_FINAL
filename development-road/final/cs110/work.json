@@ -9,8 +9,6 @@
     "path": "explore",
     "selected": [
       "save",
-      "settings",
-      "dialogue",
       "access",
       "modular",
       "tests",
@@ -18,9 +16,9 @@
       "pipeline",
       "release",
       "sales",
-      "defense",
       "secure",
-      "profile"
+      "profile",
+      "defense"
     ],
     "engine": "Unity 6 / C# / Visual Studio Code / Git and GitHub",
     "environmentTest": true,
@@ -67,18 +65,6 @@
         "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
       },
       {
-        "id": "settings",
-        "code": "R04",
-        "title": "Settings that persist",
-        "evidence": "Provide useful settings, validate changes, save them and demonstrate restoration. This must extend beyond the same progress data."
-      },
-      {
-        "id": "dialogue",
-        "code": "R06",
-        "title": "Reusable dialogue or interaction system",
-        "evidence": "Use data-driven interactions in more than one situation; show how new content can be added."
-      },
-      {
         "id": "access",
         "code": "R08",
         "title": "Accessible controls and interface",
@@ -121,12 +107,6 @@
         "evidence": "Create an original responsive product page with screenshots, accurate features, credits, accessibility and a working release/download link."
       },
       {
-        "id": "defense",
-        "code": "R14",
-        "title": "Architecture defense and maintenance guide",
-        "evidence": "Individually explain unfamiliar code sections, trace data flow and make a small requested change."
-      },
-      {
         "id": "secure",
         "code": "R11",
         "title": "Secure input and data handling",
@@ -137,6 +117,12 @@
         "code": "R12",
         "title": "Measure and improve performance",
         "evidence": "Record a repeatable baseline, identify a measured bottleneck, improve it and compare results."
+      },
+      {
+        "id": "defense",
+        "code": "R14",
+        "title": "Architecture defense and maintenance guide",
+        "evidence": "Individually explain unfamiliar code sections, trace data flow and make a small requested change."
       }
     ],
     "tasks": [],
