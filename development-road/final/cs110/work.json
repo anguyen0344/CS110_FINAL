@@ -9,17 +9,13 @@
     "path": "explore",
     "selected": [
       "save",
-      "branch",
       "settings",
-      "inventory",
       "dialogue",
       "access",
       "modular",
       "tests",
       "external",
-      "profile",
       "pipeline",
-      "secure",
       "release",
       "sales",
       "defense"
@@ -69,22 +65,10 @@
         "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
       },
       {
-        "id": "branch",
-        "code": "R03",
-        "title": "Branching story or mission state",
-        "evidence": "Demonstrate at least two meaningful outcomes, their conditions and a state-transition test."
-      },
-      {
         "id": "settings",
         "code": "R04",
         "title": "Settings that persist",
         "evidence": "Provide useful settings, validate changes, save them and demonstrate restoration. This must extend beyond the same progress data."
-      },
-      {
-        "id": "inventory",
-        "code": "R05",
-        "title": "Inventory or structured collection",
-        "evidence": "Add, remove and inspect structured items. Test limits and invalid actions."
       },
       {
         "id": "dialogue",
@@ -117,22 +101,10 @@
         "evidence": "Use consented feedback from at least three testers; document problems, fixes and retest evidence."
       },
       {
-        "id": "profile",
-        "code": "R12",
-        "title": "Measure and improve performance",
-        "evidence": "Record a repeatable baseline, identify a measured bottleneck, improve it and compare results."
-      },
-      {
         "id": "pipeline",
         "code": "R22",
         "title": "Repeatable build and release pipeline",
         "evidence": "Demonstrate a reproducible build, checks, artifact/version naming and rollback or recovery notes."
-      },
-      {
-        "id": "secure",
-        "code": "R11",
-        "title": "Secure input and data handling",
-        "evidence": "Document threats relevant to the project and test validation, safe error handling and protection of private data."
       },
       {
         "id": "release",
