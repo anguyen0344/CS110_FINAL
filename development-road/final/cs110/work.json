@@ -8,7 +8,8 @@
     "projectDescription": "I will create a new solo Unity exploration and puzzle game from scratch. The player will explore a small outpost, discover clues, solve an environmental puzzle, and activate a beacon to complete the mission.\nI will create new scenes, scripts, and project assets for this Final rather than reuse my previous coursework. I will be responsible for planning, programming, level design, testing, documentation, version control, and delivery. Any AI assistance or external resources used will be documented.",
     "path": "explore",
     "selected": [
-      "save"
+      "save",
+      "branch"
     ],
     "engine": "Unity 6 / C# / Visual Studio Code / Git and GitHub",
     "environmentTest": true,
@@ -53,6 +54,12 @@
         "code": "R02",
         "title": "Save and restore progress",
         "evidence": "Save meaningful state; close and reopen the program; demonstrate correct restoration and invalid-file handling."
+      },
+      {
+        "id": "branch",
+        "code": "R03",
+        "title": "Branching story or mission state",
+        "evidence": "Demonstrate at least two meaningful outcomes, their conditions and a state-transition test."
       }
     ],
     "tasks": [],
