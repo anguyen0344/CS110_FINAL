@@ -18,7 +18,9 @@
       "pipeline",
       "release",
       "sales",
-      "defense"
+      "defense",
+      "secure",
+      "profile"
     ],
     "engine": "Unity 6 / C# / Visual Studio Code / Git and GitHub",
     "environmentTest": true,
@@ -123,6 +125,18 @@
         "code": "R14",
         "title": "Architecture defense and maintenance guide",
         "evidence": "Individually explain unfamiliar code sections, trace data flow and make a small requested change."
+      },
+      {
+        "id": "secure",
+        "code": "R11",
+        "title": "Secure input and data handling",
+        "evidence": "Document threats relevant to the project and test validation, safe error handling and protection of private data."
+      },
+      {
+        "id": "profile",
+        "code": "R12",
+        "title": "Measure and improve performance",
+        "evidence": "Record a repeatable baseline, identify a measured bottleneck, improve it and compare results."
       }
     ],
     "tasks": [],
