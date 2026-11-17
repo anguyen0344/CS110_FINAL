@@ -4,8 +4,9 @@
   "course": "CS110",
   "name": "An Nguyen",
   "work": {
-    "project": "A story worth playing",
-    "path": "media",
+    "project": "Explorer Beacon: Restore the Outpost",
+    "projectDescription": "I will create a new solo Unity exploration and puzzle game from scratch. The player will explore a small outpost, discover clues, solve an environmental puzzle, and activate a beacon to complete the mission.\nI will create new scenes, scripts, and project assets for this Final rather than reuse my previous coursework. I will be responsible for planning, programming, level design, testing, documentation, version control, and delivery. Any AI assistance or external resources used will be documented.",
+    "path": "explore",
     "selected": [
       "save"
     ],
@@ -60,7 +61,7 @@
   "team": {
     "name": "A story worth playing",
     "mode": "solo",
-    "project": "A story worth playing",
+    "project": "Explorer Beacon: Restore the Outpost",
     "projectRepo": "",
     "members": [
       {
