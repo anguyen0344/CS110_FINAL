@@ -31,8 +31,86 @@
     "supportMode": "closed",
     "role": "Solo developer — planning, implementation, testing, documentation, version control, and release.",
     "board": {
-      "nodes": [],
-      "edges": [],
+      "nodes": [
+        {
+          "id": "787c7ec1-feb5-465d-a737-6a5c204a93d3",
+          "kind": "box",
+          "x": 20,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Goal: working project",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "b808ff49-6bab-4f28-89f5-b1a4cbb5fd3f",
+          "kind": "box",
+          "x": 210,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Inputs: code + assets",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "54bb3d02-8dae-4997-8509-2e3fc5954b41",
+          "kind": "box",
+          "x": 400,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Build: core interaction",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "ee216363-fa94-4f9d-8fd0-fa848eb39dc7",
+          "kind": "box",
+          "x": 590,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Test: expected behavior",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "6f430471-5c85-4a20-b85c-58b684570b56",
+          "kind": "box",
+          "x": 780,
+          "y": 170,
+          "w": 150,
+          "h": 70,
+          "text": "Deliver: source + evidence",
+          "owner": "",
+          "due": "",
+          "description": ""
+        }
+      ],
+      "edges": [
+        {
+          "from": "787c7ec1-feb5-465d-a737-6a5c204a93d3",
+          "to": "b808ff49-6bab-4f28-89f5-b1a4cbb5fd3f"
+        },
+        {
+          "from": "b808ff49-6bab-4f28-89f5-b1a4cbb5fd3f",
+          "to": "54bb3d02-8dae-4997-8509-2e3fc5954b41"
+        },
+        {
+          "from": "54bb3d02-8dae-4997-8509-2e3fc5954b41",
+          "to": "ee216363-fa94-4f9d-8fd0-fa848eb39dc7"
+        },
+        {
+          "from": "ee216363-fa94-4f9d-8fd0-fa848eb39dc7",
+          "to": "6f430471-5c85-4a20-b85c-58b684570b56"
+        }
+      ],
       "strokes": []
     },
     "personalBoard": {
