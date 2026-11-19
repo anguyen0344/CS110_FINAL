@@ -230,7 +230,7 @@
       "worked": "I finished the project planning step and created a new Unity project for Explorer Beacon. I saved the Outpost scene, ran an initial Play Mode check, and added a ground plane and a placeholder player. I adjusted the camera to frame the player and ground, saved the scene, and pushed my changes to GitHub.",
       "next": "I will create a Scripts folder and add a C# movement script so I can test moving the player around the Outpost scene.",
       "blocker": "",
-      "evidence": ""
+      "evidence": "https://github.com/anguyen0344/CS110_FINAL/tree/main/ExplorerBeacon"
     },
     "requirements": [
       {
@@ -388,6 +388,58 @@
         "blocker": "I need guidance on organizing the project architecture and planning the automated tests and build/release workflow.",
         "evidence": "-Repository: https://github.com/anguyen0344/CS110_FINAL  -Tool-check commits: e923ce1 and e9376eb Saved final plan: [server receipt kept on course site]",
         "tasks": []
+      },
+      {
+        "date": "2026-11-19",
+        "revision": 1,
+        "worked": "I finished the project planning step and created a new Unity project for Explorer Beacon. I saved the Outpost scene, ran an initial Play Mode check, and added a ground plane and a placeholder player. I adjusted the camera to frame the player and ground, saved the scene, and pushed my changes to GitHub.",
+        "next": "I will create a Scripts folder and add a C# movement script so I can test moving the player around the Outpost scene.",
+        "blocker": "",
+        "evidence": "https://github.com/anguyen0344/CS110_FINAL/tree/main/ExplorerBeacon",
+        "tasks": [
+          {
+            "title": "Build the first playable Unity prototype",
+            "due": "2026-11-19T15:05",
+            "done": false,
+            "result": ""
+          },
+          {
+            "title": "Separate and document the game systems",
+            "due": "2026-11-27T15:05",
+            "done": false,
+            "result": ""
+          },
+          {
+            "title": "Save and restore progress safely",
+            "due": "2026-12-01T15:05",
+            "done": false,
+            "result": ""
+          },
+          {
+            "title": "Run automated tests and improve performance",
+            "due": "2026-12-04T15:05",
+            "done": false,
+            "result": ""
+          },
+          {
+            "title": "Playtest, revise, and retest",
+            "due": "2026-12-09T15:05",
+            "done": false,
+            "result": ""
+          },
+          {
+            "title": "Build and publish the game",
+            "due": "2026-12-14T15:05",
+            "done": false,
+            "result": ""
+          },
+          {
+            "title": "Publish the product page and finish the evidence",
+            "due": "2026-12-16T15:05",
+            "done": false,
+            "result": ""
+          }
+        ]
       }
     ]
   },
