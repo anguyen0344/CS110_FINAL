@@ -35,6 +35,85 @@
       "edges": [],
       "strokes": []
     },
+    "personalBoard": {
+      "nodes": [
+        {
+          "id": "f4dc0b31-4b90-4a5e-b960-ef2feb44c790",
+          "kind": "text",
+          "x": 67.60316066725198,
+          "y": 72.88465759438103,
+          "w": 150,
+          "h": 70,
+          "text": "Explore the outpost",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "8d3a35c8-06e9-4de9-8bbc-77c7124bcaf8",
+          "kind": "text",
+          "x": 296.7515364354698,
+          "y": 106.24725636523263,
+          "w": 150,
+          "h": 70,
+          "text": "Find a clue",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "7f43654f-ac2a-4fc8-82a8-5bcd522b7ecc",
+          "kind": "text",
+          "x": 535.5575065847235,
+          "y": 79.90836259877088,
+          "w": 150,
+          "h": 70,
+          "text": "Solve the puzzle",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "dc7779a1-22d3-4318-980a-fc2ff9bb46a8",
+          "kind": "text",
+          "x": 741.0008779631256,
+          "y": 275.694139596137,
+          "w": 150,
+          "h": 70,
+          "text": "Activate the beacon",
+          "owner": "",
+          "due": "",
+          "description": ""
+        },
+        {
+          "id": "2af8a198-6f1e-4c3b-a7ea-81c03b38879e",
+          "kind": "text",
+          "x": 401.2291483757683,
+          "y": 304.32396839332745,
+          "w": 275.68042142230024,
+          "h": 131.6944688323091,
+          "text": "Wrong sequence",
+          "owner": "",
+          "due": "",
+          "description": ""
+        }
+      ],
+      "edges": [
+        {
+          "from": "f4dc0b31-4b90-4a5e-b960-ef2feb44c790",
+          "to": "8d3a35c8-06e9-4de9-8bbc-77c7124bcaf8"
+        },
+        {
+          "from": "8d3a35c8-06e9-4de9-8bbc-77c7124bcaf8",
+          "to": "7f43654f-ac2a-4fc8-82a8-5bcd522b7ecc"
+        },
+        {
+          "from": "7f43654f-ac2a-4fc8-82a8-5bcd522b7ecc",
+          "to": "dc7779a1-22d3-4318-980a-fc2ff9bb46a8"
+        }
+      ],
+      "strokes": []
+    },
     "huddle": {
       "stage": 1,
       "returned": true,
