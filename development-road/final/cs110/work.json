@@ -25,7 +25,7 @@
     "ai": "Chat GPT / Codex",
     "aiVerify": "I will inspect and explain suggested code, run it in Unity, test normal and boundary cases, compare expected and actual results, and check official documentation. I will record failures, fixes, and AI assistance.",
     "notes": "I can open and test Unity scenes, change and save Inspector settings, and commit and push files using VS Code and GitHub. For example, I changed the camera field of view to 65 and verified that the downloaded project retained the change and beacon activation worked. I can record test results and organize evidence. AI assisted with the earlier project’s source, models, documentation, and today’s instructions. I still need practice explaining and modifying C# scripts independently and defining a realistic Final scope.",
-    "plan": "",
+    "plan": "I chose one outpost and one puzzle so I can finish and test the full game loop on my own. I will start with a new Unity project, build the playable scene first, and then add save and load. An incorrect sequence will let the player retry. A correct sequence will unlock the beacon.",
     "availability": "",
     "service": "",
     "supportMode": "closed",
@@ -220,9 +220,9 @@
     "huddle": {
       "stage": 2,
       "returned": true,
-      "goal": "",
-      "personal": "",
-      "questions": ""
+      "goal": "A playable Unity scene where the player explores a small outpost, finds a clue, solves a sequence puzzle, and activates the beacon.",
+      "personal": "I am working solo, so I will build the scene, write and test the code, keep evidence, and prepare the release. My first build task is to create the new Unity project and check that the Outpost scene runs.",
+      "questions": "I still need to confirm which release platform my instructor accepts. I will test correct and incorrect puzzle inputs, check that progress is restored after reopening the game, and verify that an invalid save file does not crash the game."
     },
     "evidence": {},
     "dailyDraft": {
@@ -300,7 +300,41 @@
         "evidence": "Individually explain unfamiliar code sections, trace data flow and make a small requested change."
       }
     ],
-    "tasks": [],
+    "tasks": [
+      {
+        "id": "dc8a08f0-cbae-44f8-afbc-fcd63064a8be",
+        "title": "Build the first playable Unity prototype",
+        "owner": "An Nguyen",
+        "due": "",
+        "done": false,
+        "result": "",
+        "description": "A new Unity project opens and runs. The player can find a clue, enter the puzzle sequence, retry after a wrong answer, and activate the beacon after a correct answer.",
+        "nodeId": "",
+        "dependsOn": []
+      },
+      {
+        "id": "b0d7ec75-eda5-4175-b610-135bfd8fbc52",
+        "title": "Separate and document the game systems",
+        "owner": "An Nguyen",
+        "due": "",
+        "done": false,
+        "result": "",
+        "description": "A diagram shows what each module does and how data moves between them. I can explain the code and change a puzzle rule without rewriting unrelated systems.",
+        "nodeId": "",
+        "dependsOn": []
+      },
+      {
+        "id": "f87e3403-dea1-43f1-b7a7-c9ea2050a72b",
+        "title": "Save and restore progress safely",
+        "owner": "An Nguyen",
+        "due": "",
+        "done": false,
+        "result": "",
+        "description": "Progress is restored after closing and reopening the game. Invalid save data is rejected with clear feedback and no crash. I document relevant data risks and how I tested them.",
+        "nodeId": "",
+        "dependsOn": []
+      }
+    ],
     "dailyNotes": [
       {
         "date": "2026-11-17",
